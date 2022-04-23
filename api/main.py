@@ -34,7 +34,7 @@ async def index():
     return {"message": "Success"}
 
 
-@app.post("/user")
+@app.post("/users")
 async def users(users: User):
     return {"users": users}
 
