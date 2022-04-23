@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 
 # 会議室予約画面
 class Booking(BaseModel):
-    booking: int
+    booking_id: int
     user_id: int
     room_id: int
     booked_num: int
