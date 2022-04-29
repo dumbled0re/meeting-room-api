@@ -10,6 +10,7 @@ fastapi = "^0.75.2"
 uvicorn = "^0.17.6"
 streamlit = "^1.8.1"
 requests = "^2.27.1"
+SQLAlchemy = "^1.4.35"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
