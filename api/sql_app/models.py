@@ -8,7 +8,7 @@ class User(Base):
     user_name = Column(String, unique=True, index=True)
 
 
-class Rooms(Base):
+class Room(Base):
     __tablename__ = "rooms"
     room_id = Column(Integer, primary_key=True, index=True)
     room_name = Column(String, unique=True, index=True)
